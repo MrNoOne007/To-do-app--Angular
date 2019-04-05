@@ -5,12 +5,12 @@ import {transition} from '@angular/animations';
 import {keyframes} from '@angular/animations';
 import {style} from '@angular/animations';
 
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
   animations:[
-
 trigger("moveInLeft",[
       transition("void=> *",[style({transform:"translateX(300px)"}),
         animate(200,keyframes([
